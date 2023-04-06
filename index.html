@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/header.css">
+
+    <link rel="stylesheet" href="./css/shopstyles.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/promoCard.css">
+    <link rel="stylesheet" href="./css/discountBanner.css">
+
+
+    <title>Главная страница</title>
+</head>
+<body class="main-body">
+
+    <header>
+        <div class="menu_burger">
+            <span></span>
+        </div>
+        <nav>
+            <ul class="menu">
+                <li><a href="/catalog" class="link">Магазин</a></li>
+                <li><a href="/" class="link">Доставка и оплата</a></li>
+                <li><a href="/" class="logo"><img src="assets/svg/logo.svg" alt="Something went wrong"></a></li>
+                <li class="location"><a href="/contacts" class="link"><img src="assets/svg/location.svg" alt="Something went wrong">Кемерово, Заречная, 56</a></li>
+                <div class="profile-links">
+                    <li><a href="/" class="link"><img src="assets/svg/favourites.svg" alt="Ooopss" title="Избранное"></a></li>
+                    <li><a href="/" class="link"><img src="assets/svg/profile.svg" alt="Ooopss" title="Профиль"></a></li>
+                    <li><button class="cartBuy">
+                        <img src="assets/svg/cartWhite.svg" alt="Ooopss" title="Корзина">
+                        <div class="cart__num" id="cart_num">0</div>
+                    </button></li>
+    
+                </div>
+                
+            </ul>
+        </nav>
+        <div>
+            <div class="categories">
+                <div><a href="/catalog" class="link" >Квадроциклы</a></div>
+                <div><a href="/catalog" class="link">Катера</a></div>
+                <div><a href="/good1" class="link">Гидроциклы</a></div>
+                <div><a href="/catalog" class="link">Лодки</a></div>
+                <div><a href="/catalog" class="link">Вездеходы</a></div>
+                <div><a href="/catalog" class="link">Снегоходы</a></div>
+                <div><a href="/catalog" class="link">Двигатели</a></div>
+                <div><a href="/catalog" class="link">Запчасти</a></div>
+            </div>
+        </div>
+    
+    </header>
+
+    <div class="container">
+        <div class="frontPage">
+            <div class="banner">
+                <img class="" src="/assets/svg/banner.svg"  alt="Something went wrong..">
+            </div>
+            <div class="cardAddvertise">
+                <%- include ('blocks/addCard') -%>
+            </div>
+        </div>
+
+        <div class="promoCatalog">
+            <div class="promoCatalog-Object">
+                <div class="object-promo">
+                    <h3>Квадроциклы</h3>
+                    <img src="/assets/svg/квадроцикл.svg" alt="Oopps...">
+                </div>
+                <p><a href="/catalog">Подробнее ></a></p>
+            </div>
+
+            <div class="promoCatalog-Object">
+                <div class="object-promo">
+                    <h3>Гидроциклы</h3>
+                    <img src="/assets/svg/гидроцикл.svg" alt="Oopps...">
+                </div>
+                <p><a href="/catalog">Подробнее ></a></p>
+            </div>
+
+            <div class="promoCatalog-Object">
+                <div class="object-promo">
+                    <h3>Катера</h3>
+                    <img src="/assets/svg/катер.svg" alt="Oopps...">
+                </div>
+                <p><a href="/catalog">Подробнее ></a></p>
+            </div>
+
+            <div class="promoCatalog-Object">
+                <div class="object-promo">
+                    <h3>Снегоходы</h3>
+                    <img src="/assets/svg/снегоход.svg" alt="Oopps...">
+                </div>
+                <p><a href="/catalog">Подробнее ></a></p>
+            </div>
+
+            <div class="promoCatalog-Object">
+                <div class="object-promo">
+                    <h3>Вездеходы</h3>
+                    <img src="/assets/svg/вездеход.svg" alt="Oopps...">
+                </div>
+                <p><a href="/catalog">Подробнее ></a></p>
+            </div>
+
+            <div class="promoCatalog-Object">
+                <div class="object-promo">
+                    <h3>Двигатели</h3>
+                    <img src="/assets/svg/двигатель.svg" alt="Oopps...">
+                </div>
+                <p><a href="/catalog">Подробнее ></a></p>
+            </div>
+
+
+        </div>
+
+        <div class="popular">
+            <h2>Популярные товары</h2>
+            <div>
+                <span class="popular-categ"><a>запчасти</a></span>
+                <span class="popular-categ"><a>моторы</a></span>
+                <span class="popular-categ"><a>шины </a></span>
+                <span class="popular-categ"><a>электроника</a></span>
+                <span class="popular-categ"><a>инструменты</a></span>
+                <span class="popular-categ active-cat"><a>аксессуары </a></span>
+
+                <div class="popularContent">
+                    <div class="popularCard">
+                        <div class="popularHeader">
+                            <div class="sale">SALE</div>
+                            <div> <img src="/assets/svg/favourites.svg" alt="Ooops"></div>
+                        </div>
+                        <div class="content">
+                            <figure class="shop-item"><a href="/jet-ski">
+                                <img src="/assets/svg/backpack.svg" alt="Ooops" class="popularGood"></a>
+                                <p>Водонепроницаемый <br> Рюкзак</p>
+                            </figure>
+                            <span class="price"> 9800  &#8381;</span>
+                            <div class="addCart">
+                                <img src="/assets/svg/cartWhite.svg" alt="Ooops">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="popularCard">
+                        <div class="popularHeader">
+                            <div class="nosale">SALE</div>
+                            <div> <img src="/assets/svg/favourites.svg" alt="Ooops"></div>
+                        </div>
+                        <div class="content">
+                            <figure class="shop-item"><a href="/jet-ski">
+                                <img src="/assets/svg/jacket.svg" alt="Ooops" class="popularGood"></a>
+                                <p>Спасательный жилет BRP <br> Men's Airflow PFD</p>
+                            </figure>
+                            <span class="price"> 6900  &#8381;</span>
+                            <div class="addCart">
+                                <img src="/assets/svg/cartWhite.svg" alt="Ooops">
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="popularCard">
+                        <div class="popularHeader">
+                            <div class="sale">SALE</div>
+                            <div> <img src="/assets/svg/favourites.svg" alt="Ooops"></div>
+                        </div>
+                        <div class="content">
+                            <figure class="shop-item"> <a href="/jet-ski">
+                                <img src="/assets/svg/audio.svg" alt="Ooops" class="popularGood"></a>
+                                <p>BRP Audio-Premium <br> System</p>
+                            </figure>
+                            <span class="price"> 68 000  &#8381;</span>
+                            <div class="addCart">
+                                <img src="/assets/svg/cartWhite.svg" alt="Ooops">
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="popularCard">
+                        <div class="popularHeader">
+                            <div class="nosale">SALE</div>
+                            <div> <img src="/assets/svg/favourites.svg" alt="Ooops"></div>
+                        </div>
+                        <div class="content">
+                            <figure class="shop-item"><a href="/jet-ski">
+                                <img src="/assets/svg/rope.svg" alt="Ooops" class="popularGood"></a>
+                                <p>Спасательное <br> снаряжение</p>
+                            </figure>
+                            <span class="noprice"> нет в наличии</span>
+                            <p class="availability">Сообщить о поступлении</p>
+                            <div class="noaddCart">
+                                <img src="/assets/svg/cartWhite.svg" alt="Ooops">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                
+                <div class="moreButton">
+                    <form action="/catalog">
+                        <button class="button pupularGoodsButton" type="submit">Показать еще</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <%- include ('blocks/discountBanner') -%>
+        </div>
+
+        <div class="additional">
+                <h2>С этим товаром покупают</h2>
+                <div>
+                    <span class="additional-categ"><a>запчасти</a></span>
+                    <span class="additional-categ"><a>моторы</a></span>
+                    <span class="additional-categ"><a>шины </a></span>
+                    <span class="additional-categ active-cat"><a>электроника</a></span>
+                    <span class="additional-categ"><a>инструменты</a></span>
+                    <span class="additional-categ"><a>аксессуары </a></span>
+    
+                    <div class="AddContent">
+                        <div class="AdditionalCard">
+                            <div class="popularHeader">
+                                <div class="nosale">SALE</div>
+                                <div> <img src="/assets/svg/favourites.svg" alt="Ooops"></div>
+                            </div>
+                            <div class="content">
+                                <figure class="shop-item"><a href="/jet-ski">
+                                    <img src="/assets/svg/audio-system.svg" alt="Ooops" class="popularGood"></a>
+                                    <p>BRP Audio-портативная <br>система</p>
+                                </figure>
+                                <span class="noprice"> нет в наличии</span>
+                                <p class="availability">Сообщить о поступлении</p>
+                                <div class="noaddCart">
+                                    <img src="/assets/svg/cartWhite.svg" alt="Ooops">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="AdditionalCard">
+                            <div class="popularHeader">
+                                <div class="sale">SALE</div>
+                                <div> <img src="/assets/svg/favourites.svg" alt="Ooops"></div>
+                            </div>
+                            <div class="content">
+                                <figure class="shop-item"><a href="/jet-ski">
+                                    <img src="/assets/svg/garmin.svg" alt="Ooops" class="popularGood"></a>
+                                    <p>Garmin Echomap Plus <br>62cv</p>
+                                </figure>
+                                <span class="price"> 45 800  &#8381;</span>
+                                <div class="addCart">
+                                    <img src="/assets/svg/cartWhite.svg" alt="Ooops">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="AdditionalCard">
+                            <div class="popularHeader">
+                                <div class="nosale">SALE</div>
+                                <div> <img src="/assets/svg/favourite-full.svg" alt="Ooops"></div>
+                            </div>
+                            <div class="content">
+                                <figure class="shop-item"><a href="/jet-ski">
+                                    <img src="/assets/svg/RF.svg" alt="Ooops" class="popularGood"></a>
+                                    <p>RF D.E.S.S.TM Key</p>
+                                </figure>
+                                <span class="noprice"> нет в наличии</span>
+                                <p class="availability">Сообщить о поступлении</p>
+                                <div class="noaddCart">
+                                    <img src="/assets/svg/cartWhite.svg" alt="Ooops">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="AdditionalCard">
+                            <div class="popularHeader">
+                                <div class="sale">SALE</div>
+                                <div> <img src="/assets/svg/favourites.svg" alt="Ooops"></div>
+                            </div>
+                            <div class="content">
+                                <figure class="shop-item"><a href="/jet-ski">
+                                    <img src="/assets/svg/costume.svg" alt="Ooops" class="popularGood"></a>
+                                    <p>Мужской костюм<br> 3мм</p>
+                                </figure>
+                                <span class="price"> 7000  &#8381;</span>
+                                <div class="addCart">
+                                    <img src="/assets/svg/cartWhite.svg" alt="Ooops">
+                                </div>
+                            </div>
+                        </div>
+    
+                       
+                    </div>
+
+                    <div class="moreButton">
+                        <form action="/catalog">
+                            <button class="button pupularGoodsButton" type="submit">Показать еще</button>
+                        </form>
+                    </div>
+                </div>
+
+        </div>
+    </div>
+    <%- include ('blocks/footer') -%>
+
+    <script src="../functions.js" type="application/javascript"></script>
+
+</body>
+</html>

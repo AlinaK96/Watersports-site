@@ -1,0 +1,36 @@
+
+.discountBanner{
+    background-color: var(--mainBlue);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.bannerInfo{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 36px;
+    color: white;
+}
+
+.bannerLink{
+    background-color: white;
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 50px;
+    padding: 0px 41px; 
+    box-sizing: border-box;
+}
+
+.bannerLink a, .bannerLink a:visited{
+    color: var(--mainBlack);
+}
+
+.bannerLink a:hover{
+    color: var(--mainBlue);
+    transition: all 01s ease-in;
+}
+

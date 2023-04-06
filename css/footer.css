@@ -1,0 +1,137 @@
+.footer{
+    background-color: var(--colorGrey);
+    margin-top: 50px;
+    height: 125px;
+    padding-top: 43px;
+}
+
+li{
+    list-style-type: none;
+}
+
+.footerContent{
+    margin-left: 30px;
+}
+
+.footerContent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.subscribe{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: var(--colorBlack);
+}
+
+.footerText{
+    margin-bottom: 12px;
+}
+
+.sendEmail{
+    display: flex;
+    height: 33px;
+    align-items: center;
+}
+
+.infoinput{
+    box-sizing: border-box;
+    height: 32px;
+    width: 201px;
+    border: none;
+    padding-top: 16px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.infoinput:focus {
+    outline-width: 0;
+}
+
+.footerSend{
+    height: 35px;
+    width: 109px;
+    background-color: var(--mainBlue);
+    transition: all 1s ease-in;
+    border: transparent;
+    color: white;
+}
+
+.footerSend:hover{
+    background-color: var(--buttonHover);
+    border:transparent;
+}
+
+
+.footerLink{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: var(--colorBlack);
+}
+
+.footerLink:visited{
+    color: var(--colorBlack);
+}
+
+.footerLink:hover{
+    color: var(--mainBlue);
+    transition: all 0.2s ease-in;
+}
+
+.footerMedia{
+    display: flex;
+    
+}
+
+.footerMedia img{
+    margin-right: 30px;
+}
+
+
+@media (max-width: 991px){
+
+    .footer{
+        padding-top: 10px;
+    }
+
+    .footerMedia{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footerMedia img{
+        margin-right: 20px;
+        margin-top: 5px;
+        width: 40px;
+        height: 23px;
+    }
+}
+
+@media (max-width: 767px) {
+    .footerContent{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footerInfo,
+    .footerShop{
+        display: none;
+    }
+
+    .footerMedia{
+        display: flex;
+        flex-direction: row;
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 575px){
+    .infoinput{
+        width: 150px;
+    }
+}

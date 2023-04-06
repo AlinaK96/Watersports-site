@@ -1,0 +1,213 @@
+
+
+.productHead{
+    display: flex ;
+    justify-content: space-between;
+}
+
+.mode{
+    float: left;
+    height: 25px;
+    width: 63px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.07em;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.sale{
+    background-color: var(--mainBlue);
+    color: white;
+}
+
+.no-sale{
+    background-color: white;
+    color: white;
+}
+
+
+
+.product-page{
+    display: flex;
+}
+
+.Card {
+    height: 579px;
+    width: 500px;
+    border-radius: 3px;
+    margin-bottom: 35px;
+}
+
+.Cardcontent{
+    position: relative;
+    top: 64px;
+    text-align: center;
+}
+
+.Cardcontent img{
+    width: 500px;
+    height: 375px;
+}
+
+.oldPrice{
+    font-size: 30px;
+    line-height: 36px;
+    color: black;
+    opacity: 0.6;
+    text-decoration: line-through;
+}
+
+.NewPrice{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: var(--colorBlack);
+}
+
+.cheapInform a{
+    color: var(--mainBlue);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.infoLine{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    background-color: var(--colorGrey);
+    padding: 0 15px 0 15px;
+    margin: 35px 0px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--colorBlack);
+    opacity: 0.6;
+}
+
+.productInformation{
+    position: relative;
+	top: 0;
+	bottom: 0;
+	left: 5%;
+	right: 5%;
+	height: 100%;
+	width: 100%;
+}
+
+.tableHeader{
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--colorBlack);
+    margin-bottom: 5px;
+}
+
+.tableBody{
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--colorBlack);
+    opacity: 0.7;
+    text-align: center;
+}
+
+.purchase{
+    background: var(--mainBlue);
+    border: none;
+    border-radius: 3px;
+    height: 35px;
+    width: 140px;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 0.12em;
+    color: #FFFFFF;
+}
+
+.purchase:hover{
+    background-color: #FFFFFF;
+    color: var(--mainBlue);
+    border: 1px solid var(--mainBlue);
+}
+
+/* characteristics */
+
+.charecteristics{
+    margin-left: 100px;
+}
+
+.charecteristics h1{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: var(--colorBlack);
+}
+
+.charecteristics p{
+    font-weight: 400;
+    font-size: 15px;
+    opacity: 0.6;
+    color: var(--colorBlack);
+    margin: 10px 0 25px;
+}
+
+.symbols{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.charecteristics h4{
+    margin: 25px 0 0 0;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--colorBlack);
+}
+
+hr{
+    width: 150px;
+    height: 2px;
+    background-color: var(--mainBlue);
+    margin-bottom: 20px;
+}
+
+
+.line{
+    width: 280px;
+    font-size: 20px;
+    color: var(--colorBlack);
+}
+
+.column{
+    font-size: 20px;
+    color: var(--colorBlack);
+}
+
+.showmore{
+    margin: 20px 0 35px 0;
+    color: var(--mainBlue);
+}
+
+.showmore a{
+    color: var(--mainBlue);
+    text-decoration: underline;
+}
+
+.purchaseXL{
+    background: var(--mainBlue);
+    border: none;
+    border-radius: 3px;
+    height: 50px;
+    width: 177px;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.12em;
+    color: #FFFFFF;
+}
+
+.purchaseXL:hover{
+    background-color: #FFFFFF;
+    color: var(--mainBlue);
+    border: 1px solid var(--mainBlue);
+}
