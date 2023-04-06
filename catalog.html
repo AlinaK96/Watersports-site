@@ -6,13 +6,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/css/shopstyles.css">
-    <link rel="stylesheet" href="/css/header.css">
-    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/shopstyles.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/promoCard.css">
+    <link rel="stylesheet" href="./css/discountBanner.css">
     <title>Каталог</title>
 </head>
 <body>
-    <%- include ('blocks/header') -%>
+    <header>
+        <div class="menu_burger">
+            <span></span>
+        </div>
+        <nav>
+            <ul class="menu">
+                <li><a href="/catalog" class="link">Магазин</a></li>
+                <li><a href="/" class="link">Доставка и оплата</a></li>
+                <li><a href="/" class="logo"><img src="./img/svg/logo.svg" alt="Something went wrong"></a></li>
+                <li class="location"><a href="/contacts" class="link"><img src="./img/svg/location.svg" alt="Something went wrong">Кемерово, Заречная, 56</a></li>
+                <div class="profile-links">
+                    <li><a href="/" class="link"><img src="./img/svg/favourites.svg" alt="Ooopss" title="Избранное"></a></li>
+                    <li><a href="/" class="link"><img src="./img/svg/profile.svg" alt="Ooopss" title="Профиль"></a></li>
+                    <li><button class="cartBuy">
+                        <img src="./img/svg/cartWhite.svg" alt="Ooopss" title="Корзина">
+                        <div class="cart__num" id="cart_num">0</div>
+                    </button></li>
+    
+                </div>
+                
+            </ul>
+        </nav>
+        <div>
+            <div class="categories">
+                <div><a href="/catalog" class="link" >Квадроциклы</a></div>
+                <div><a href="/catalog" class="link">Катера</a></div>
+                <div><a href="/good1" class="link">Гидроциклы</a></div>
+                <div><a href="/catalog" class="link">Лодки</a></div>
+                <div><a href="/catalog" class="link">Вездеходы</a></div>
+                <div><a href="/catalog" class="link">Снегоходы</a></div>
+                <div><a href="/catalog" class="link">Двигатели</a></div>
+                <div><a href="/catalog" class="link">Запчасти</a></div>
+            </div>
+        </div>
+    
+    </header>
 
     <div class="promoCatalog">
         <div class="promoCatalog-Object">
