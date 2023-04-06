@@ -33,9 +33,9 @@
                     <li><a href="#" class="link"><img src="./img/svg/favourites.svg" alt="Ooopss" title="Избранное"></a></li>
                     <li><a href="#" class="link"><img src="./img/svg/profile.svg" alt="Ooopss" title="Профиль"></a></li>
                     <li><button class="cartBuy">
-                        <img src="./img/svg/cartWhite.svg" alt="Ooopss" title="Корзина">
-                        <div class="cart__num" id="cart_num">0</div>
-                    </button></li>
+                            <img src="./img/svg/cartWhite.svg" alt="Ooopss" title="Корзина">
+                            <div class="cart__num" id="cart_num">0</div>
+                        </button></li>
     
                 </div>
                 
@@ -62,7 +62,24 @@
                 <img class="" src="./img/svg/banner.svg"  alt="Something went wrong..">
             </div>
             <div class="cardAddvertise">
-                <%- include ('blocks/addCard') -%>
+                <div class="add">
+                    <div class="addHeader">
+                        <div class="label">Акция</div>
+                        <div class="price">190 000 &#8381;</div>
+                    </div>
+                        <div class="oldPrice">225 000 &#8381;</div>
+                
+                    <div class="good">
+                        <img src="./img/svg/addBanner.svg" alt="Something went wrong">
+                        <h3>Лодочный мотор </h3>
+                        <h3>Suzuki DF9.9BRS</h3>
+                    </div>
+                
+                    <div class="deadline">
+                        <h4>Акция действует до</h4>
+                        <p>31.05.2023</p>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -135,7 +152,7 @@
                             <div> <img src="./img/svg/favourites.svg" alt="Ooops"></div>
                         </div>
                         <div class="content">
-                            <figure class="shop-item"><a href="/jet-ski">
+                            <figure class="shop-item"><a href="jet-ski.html">
                                 <img src="./img/svg/backpack.svg" alt="Ooops" class="popularGood"></a>
                                 <p>Водонепроницаемый <br> Рюкзак</p>
                             </figure>
@@ -152,7 +169,7 @@
                             <div> <img src="./img/svg/favourites.svg" alt="Ooops"></div>
                         </div>
                         <div class="content">
-                            <figure class="shop-item"><a href="/jet-ski">
+                            <figure class="shop-item"><a href="jet-ski.html">
                                 <img src="./img/svg/jacket.svg" alt="Ooops" class="popularGood"></a>
                                 <p>Спасательный жилет BRP <br> Men's Airflow PFD</p>
                             </figure>
@@ -170,7 +187,7 @@
                             <div> <img src="./img/svg/favourites.svg" alt="Ooops"></div>
                         </div>
                         <div class="content">
-                            <figure class="shop-item"> <a href="/jet-ski">
+                            <figure class="shop-item"> <a href="jet-ski.html">
                                 <img src="./img/svg/audio.svg" alt="Ooops" class="popularGood"></a>
                                 <p>BRP Audio-Premium <br> System</p>
                             </figure>
@@ -188,7 +205,7 @@
                             <div> <img src="./img/svg/favourites.svg" alt="Ooops"></div>
                         </div>
                         <div class="content">
-                            <figure class="shop-item"><a href="/jet-ski">
+                            <figure class="shop-item"><a href="jet-ski.html">
                                 <img src="./img/svg/rope.svg" alt="Ooops" class="popularGood"></a>
                                 <p>Спасательное <br> снаряжение</p>
                             </figure>
@@ -204,7 +221,7 @@
 
                 
                 <div class="moreButton">
-                    <form action="/catalog">
+                    <form action="catalog.html">
                         <button class="button pupularGoodsButton" type="submit">Показать еще</button>
                     </form>
                 </div>
@@ -212,7 +229,22 @@
         </div>
 
         <div>
-            <%- include ('blocks/discountBanner') -%>
+            <div class="discountBanner">
+                <div class="bannerPhotos">
+                    <img class="" src="./img/svg/banner1.svg"  alt="Something went wrong..">
+                    <img class="" src="./img/svg/banner2.svg"  alt="Something went wrong..">
+                </div>
+                <div class="bannerInfo">
+                    <h5>CКИДКИ <br>
+                        на все запчасти <br>
+                        до 70%</h5>
+                </div>
+                <div>
+                    <form action="catalog.html">
+                        <button class="button pupularGoodsButton" type="submit">Посмотреть всё</button>
+                    </form>
+                </div>
+            </div>
         </div>
 
         <div class="additional">
@@ -232,7 +264,7 @@
                                 <div> <img src="./img/svg/favourites.svg" alt="Ooops"></div>
                             </div>
                             <div class="content">
-                                <figure class="shop-item"><a href="/jet-ski">
+                                <figure class="shop-item"><a href="jet-ski.html">
                                     <img src="./img/svg/audio-system.svg" alt="Ooops" class="popularGood"></a>
                                     <p>BRP Audio-портативная <br>система</p>
                                 </figure>
@@ -250,7 +282,7 @@
                                 <div> <img src="./img/svg/favourites.svg" alt="Ooops"></div>
                             </div>
                             <div class="content">
-                                <figure class="shop-item"><a href="/jet-ski">
+                                <figure class="shop-item"><a href="jet-ski.html">
                                     <img src="./img/svg/garmin.svg" alt="Ooops" class="popularGood"></a>
                                     <p>Garmin Echomap Plus <br>62cv</p>
                                 </figure>
@@ -267,7 +299,7 @@
                                 <div> <img src="./img/svg/favourite-full.svg" alt="Ooops"></div>
                             </div>
                             <div class="content">
-                                <figure class="shop-item"><a href="/jet-ski">
+                                <figure class="shop-item"><a href="jet-ski.html">
                                     <img src="./img/svg/RF.svg" alt="Ooops" class="popularGood"></a>
                                     <p>RF D.E.S.S.TM Key</p>
                                 </figure>
@@ -285,7 +317,7 @@
                                 <div> <img src="./img/svg/favourites.svg" alt="Ooops"></div>
                             </div>
                             <div class="content">
-                                <figure class="shop-item"><a href="/jet-ski">
+                                <figure class="shop-item"><a href="jet-ski.html">
                                     <img src="./img/svg/costume.svg" alt="Ooops" class="popularGood"></a>
                                     <p>Мужской костюм<br> 3мм</p>
                                 </figure>
@@ -300,7 +332,7 @@
                     </div>
 
                     <div class="moreButton">
-                        <form action="/catalog">
+                        <form action="catalog.html">
                             <button class="button pupularGoodsButton" type="submit">Показать еще</button>
                         </form>
                     </div>
