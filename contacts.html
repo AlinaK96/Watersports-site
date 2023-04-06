@@ -26,7 +26,49 @@
     </div>
 
 
-    <%- include ('blocks/footer') -%>
+    <footer class="footer">
+        <div class="footerContent">
+            <div class="subscribe">
+                <p class="footerText">Подпишитесь на нашу рассылку <br> и узнавайте о акция быстрее</p>
+                
+                <form method="post" action="/subscribtion" class="sendEmail">
+                    <div>
+                        <input class="infoinput" type="text" name="email" placeholder="Введите ваш e-mail:">
+                    </div>
+                    <button class="button footerSend" type="submit">Отправить</button>
+                </form>
+            </div>
+            
+            <div class="footerInfo">
+                <ul>
+                    <li><strong>Информация</strong></li>
+                    <li><a href="/" class="footerLink">О компании</a></li>
+                    <li><a href="/contacts" class="footerLink">Контакты</a></li>
+                    <li><a href="/catalog" class="footerLink">Акции</a></li>
+                    <li><a href="/contacts" class="footerLink">Магазины</a></li>
+                </ul>
+    
+            </div>
+    
+            <div class="footerShop">
+                <ul>
+                    <li><strong>Интернет-магазин</strong></li>
+                    <li><a href="#" class="footerLink">Доставка и самовывоз</a></li>
+                    <li><a href="#" class="footerLink">Оплата</a></li>
+                    <li><a href="#" class="footerLink">Возврат-обмен</a></li>
+                    <li><a href="#" class="footerLink">Новости</a></li>
+                </ul>
+    
+            </div>
+            <div class="footerMedia">
+                    <div><a href="#"><img src="./img/svg/instagram.svg" alt="Something went wrong" title="Instagram"></a></div>
+                    <div><a href="#"><img src="./img/svg/vk.svg" alt="Something went wrong" title="Вконтакте"></a></div>
+                    <div><a href="#"><img src="./img/svg/facebook.svg" alt="Something went wrong" title="Facebook"></a></div>
+                    <div><a href="#"><img src="./img/svg/youtube.svg" alt="Something went wrong" title="YouTube"></a></div>
+            </div>
+        </div>
+       
+    </footer>
 
 </body>
 </html>
