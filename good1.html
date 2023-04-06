@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow&display=swap" rel="stylesheet">
+    <link type="image/x-icon" rel="shortcut icon" href="./img/favicon.ico">
+
   
     <link rel="stylesheet" href="./css/shopstyles.css">
     <link rel="stylesheet" href="./css/header.css">
@@ -29,10 +31,10 @@
                 <div class="profile-links">
                     <li><a href="#" class="link"><img src="./img/svg/favourites.svg" alt="Ooopss" title="Избранное"></a></li>
                     <li><a href="#" class="link"><img src="./img/svg/profile.svg" alt="Ooopss" title="Профиль"></a></li>
-                    <li><button class="cartBuy">
+                    <li> <form action="./cart.html"><button class="cartBuy">
                         <img src="./img/svg/cartWhite.svg" alt="Ooopss" title="Корзина">
                         <div class="cart__num" id="cart_num">0</div>
-                    </button></li>
+                    </button></form></li>
     
                 </div>
                 
@@ -290,13 +292,13 @@
         <div class="footerContent">
             <div class="subscribe">
                 <p class="footerText">Подпишитесь на нашу рассылку <br> и узнавайте о акция быстрее</p>
-                
-                <form method="post" action="/subscribtion" class="sendEmail">
                     <div>
                         <input class="infoinput" type="text" name="email" placeholder="Введите ваш e-mail:">
                     </div>
-                    <button class="button footerSend" type="submit">Отправить</button>
-                </form>
+                    <form action="./subscribtion.html">
+                        <button class="button footerSend" type="submit" >Отправить</button>
+                    </form>
+
             </div>
             
             <div class="footerInfo">

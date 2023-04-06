@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow&display=swap" rel="stylesheet">
     <link type="image/x-icon" rel="shortcut icon" href="./img/favicon.ico">
@@ -12,11 +13,14 @@
     <link rel="stylesheet" href="./css/shopstyles.css">
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/promoCard.css">
+    <link rel="stylesheet" href="./css/discountBanner.css">
 
-
-    <title>Каталог</title>
+    <title>Корзина</title>
 </head>
-<body>
+
+<body class="main-body">
+
     <header>
         <div class="menu_burger">
             <span></span>
@@ -52,87 +56,30 @@
             </div>
         </div>
     
-    </header>
-
-    <div class="promoCatalog">
-        <div class="promoCatalog-Object">
-            <div class="object-promo">
-                <h3>Квадроциклы</h3>
-                <img src="./img/svg/квадроцикл.svg" alt="Oopps...">
+    </header>   
+   
+    
+    <div>
+        <div class="discountBanner">
+            <div class="bannerPhotos">
+                <img class="" src="./img/svg/banner1.svg"  alt="Something went wrong..">
+                <img class="" src="./img/svg/banner2.svg"  alt="Something went wrong..">
             </div>
-            <p><a href="good1.html">Подробнее ></a></p>
-        </div>
-
-        <div class="promoCatalog-Object">
-            <div class="object-promo">
-                <h3>Катера</h3>
-                <img src="./img/svg/катер.svg" alt="Oopps...">
+            <div class="bannerInfo">
+                <h5>CКИДКИ <br>
+                    на все запчасти <br>
+                    до 70%</h5>
             </div>
-            <p><a href="good1.html">Подробнее ></a></p>
-        </div>
-
-        <div class="promoCatalog-Object">
-            <div class="object-promo">
-                <h3>Гидроциклы</h3>
-                <img src="./img/svg/гидроцикл.svg" alt="Oopps...">
+            <div>
+                <form action="catalog.html">
+                    <button class="button pupularGoodsButton" type="submit">Посмотреть всё</button>
+                </form>
             </div>
-            <p><a href="good1.html">Подробнее ></a></p>
         </div>
-
-        <div class="promoCatalog-Object">
-            <div class="object-promo">
-                <h3>Лодки</h3>
-                <img src="./img/svg/катер.svg" alt="Oopps...">
-            </div>
-            <p><a href="good1.html">Подробнее ></a></p>
-        </div>
-
-        <div class="promoCatalog-Object">
-            <div class="object-promo">
-                <h3>Вездеходы</h3>
-                <img src="./img/svg/вездеход.svg" alt="Oopps...">
-            </div>
-            <p><a href="good1.html">Подробнее ></a></p>
-        </div>
-
-        <div class="promoCatalog-Object">
-            <div class="object-promo">
-                <h3>Снегоходы</h3>
-                <img src="./img/svg/снегоход.svg" alt="Oopps...">
-            </div>
-            <p><a href="good1.html">Подробнее ></a></p>
-        </div>
-
-
-
-        <div class="promoCatalog-Object">
-            <div class="object-promo">
-                <h3>Двигатели</h3>
-                <img src="./img/svg/двигатель.svg" alt="Oopps...">
-            </div>
-            <p><a href="good1.html">Подробнее ></a></p>
-        </div>
-
-        <div class="promoCatalog-Object">
-            <div class="object-promo">
-                <h3>Запчасти</h3>
-                <img src="./img/svg/rope.svg" alt="Oopps...">
-            </div>
-            <p><a href="good1.html">Подробнее ></a></p>
-        </div>
-
-        <div class="promoCatalog-Object">
-            <div class="object-promo">
-                <h3>Прочее</h3>
-                <img src="./img/svg/costume.svg" alt="Oopps...">
-            </div>
-            <p><a href="good1.html">Подробнее ></a></p>
-        </div>
-
-
     </div>
 
-    <footer class="footer">
+   
+   <footer class="footer">
         <div class="footerContent">
             <div class="subscribe">
                 <p class="footerText">Подпишитесь на нашу рассылку <br> и узнавайте о акция быстрее</p>
@@ -153,9 +100,9 @@
                     <li><a href="catalog.html" class="footerLink">Акции</a></li>
                     <li><a href="contacts.html" class="footerLink">Магазины</a></li>
                 </ul>
-    
+
             </div>
-    
+
             <div class="footerShop">
                 <ul>
                     <li><strong>Интернет-магазин</strong></li>
@@ -164,7 +111,7 @@
                     <li><a href="#" class="footerLink">Возврат-обмен</a></li>
                     <li><a href="#" class="footerLink">Новости</a></li>
                 </ul>
-    
+
             </div>
             <div class="footerMedia">
                     <div><a href="#"><img src="./img/svg/instagram.svg" alt="Something went wrong" title="Instagram"></a></div>
@@ -173,15 +120,10 @@
                     <div><a href="#"><img src="./img/svg/youtube.svg" alt="Something went wrong" title="YouTube"></a></div>
             </div>
         </div>
-       
+    
     </footer>
+
+    <script src="x.js" type="application/javascript"></script>
+
 </body>
 </html>
-
-
-
-
-
-
-
-
