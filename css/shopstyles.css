@@ -4,7 +4,7 @@
     
     --colorBlack: #2F3035;
     --mainBlue: #1C62CD;
-    --colorGrey: #F0F0F4;
+    --colorGrey: #e3e3e8;
     --buttonHover:#05A88D;
     --greyText: #C4C4C4;
 }
@@ -281,4 +281,55 @@ h4{
 
 .shop-item:hover {
     transform:scale(1.1);
+}
+
+
+/*heart*/
+.wrapper{
+    margin-top: 8px;
+    margin-right: 10px;
+}
+
+.heart {
+    width: 20px; 
+    height: 20px; 
+    background-color: var(--colorGrey); 
+    transform: rotate(45deg);
+    position: relative; 
+}
+
+.heart::before,
+.heart::after {
+    content : ''; 
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-color: var(--colorGrey); 
+    border-radius: 50%; 
+    position: absolute;
+}
+
+.heart::before {
+    top: -10px;
+    left: 0;
+}
+
+.heart::after {
+    top: 0;
+    left: -10px;
+}
+
+.activeHeart{
+    background-color: var(--mainBlue);
+}
+
+.activeHeart::before,
+.activeHeart::after {
+    content : ''; 
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-color: var(--mainBlue);
+    border-radius: 50%; 
+    position: absolute;
 }
