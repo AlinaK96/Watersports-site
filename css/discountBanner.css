@@ -34,3 +34,34 @@
     transition: all 01s ease-in;
 }
 
+@media (max-width: 991px){
+    .bannerPhotos img{
+        width: 130px;
+        height: 90px;
+    }
+}
+
+@media (max-width: 767px) {
+    .pupularGoodsButton{
+        width: 200px;
+    }
+
+    .bannerInfo{
+        font-size: 30px
+    }
+
+    .bannerPhotos{
+        width: 115px;
+        height: 80px;
+    }
+
+    .bannerPhotos img:last-child{
+        display: none;
+    }
+}
+
+@media (max-width: 575px){
+    .pupularGoodsButton{
+        display: none;
+    }
+}
