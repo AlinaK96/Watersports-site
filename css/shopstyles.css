@@ -220,7 +220,7 @@ body{
 
 .promoCatalog a, .promoCatalog a:visited{
     text-decoration: none;
-    color: var(--greyText);
+    color: var(--mainBlue);
     font-weight: 400;
     font-size: 14px;
     line-height: 17px;
@@ -228,7 +228,7 @@ body{
 
 .promoCatalog a:hover{
     text-decoration: underline;
-    color: var(--mainBlue);
+    color: var(--buttonHover);
 }
 
 .promoCatalog-Object p{
@@ -409,7 +409,7 @@ h4{
     border-radius: 20px;
     margin: 10px;
     cursor: pointer;
-    color: var(--mainBlue);
+    color: black;
     flex: 5;
     background-size: cover;
     background-position: center;
