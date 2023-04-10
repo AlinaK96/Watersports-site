@@ -1,10 +1,12 @@
 //добавить в избранное
 
-const addToFavourites = document.querySelector('.heart')
+const addToFavourites = document.querySelectorAll('.heart')
+for (const fav of addToFavourites) {
+    fav.addEventListener('click', () => {
+         fav.classList.toggle('activeHeart')
+    })
+}
 
-addToFavourites.addEventListener('click', function() {
-    addToFavourites.classList.toggle("activeHeart");
-});
 
 
 
@@ -31,4 +33,18 @@ buttonBurger.addEventListener('click', () => {
     categories.classList.toggle('active')
 })
 
+//slider для меню
+const slides = document.querySelectorAll('.slide')
 
+for (const slide of slides) {
+    slide.addEventListener('mouseover', () => {
+        clearActiveClasses()
+        slide.classList.add('active')
+    })
+}
+
+function clearActiveClasses() {
+    slides.forEach((slide) => {
+        slide.classList.remove('active')
+    })
+}
