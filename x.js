@@ -20,3 +20,15 @@ footerButton.addEventListener('click', function(){
 
 })
 
+//burger menu
+const buttonBurger = document.querySelector(".menu_burger");
+const menu = document.querySelector(".menu");
+const categories = document.querySelector(".categories");
+
+buttonBurger.addEventListener('click', () => {
+    buttonBurger.classList.toggle('active')
+    menu.classList.toggle('active')
+    categories.classList.toggle('active')
+})
+
+
