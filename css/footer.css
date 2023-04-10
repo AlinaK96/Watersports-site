@@ -28,6 +28,7 @@ li{
 
 .footerText{
     margin-bottom: 12px;
+    margin-left: 35px;
 }
 
 .sendEmail{
@@ -114,25 +115,66 @@ li{
 }
 
 @media (max-width: 767px) {
+    .footer{
+        height: 140px;
+    }
+
+    .subscribe{
+        position: relative;
+        margin-right: 230px;
+    }
+
     .footerContent{
         display: flex;
         flex-direction: column;
     }
 
-    .footerInfo,
     .footerShop{
+        position: relative;
+        left: 140px;
+        top: -70px;
+    }
+
+    .footerInfo{
         display: none;
     }
 
     .footerMedia{
         display: flex;
         flex-direction: row;
-        margin-top: 15px;
+        margin-top: -85px;
+        position: relative;
+        margin-right: 230px;
     }
 }
 
 @media (max-width: 575px){
     .infoinput{
         width: 150px;
+    }
+
+    .footer{
+        height: 235px;
+    }
+
+    .subscribe{
+        margin-right: 25px;
+    }
+
+    .footerShop{
+        position: relative;
+        left: -100px;
+        top: -95px;
+    }
+
+    .footerInfo{
+        position: relative;
+        display: block;
+        top: 5px;
+        left: 55px;
+    }
+
+    .footerMedia{
+        margin-right: 40px;
     }
 }
