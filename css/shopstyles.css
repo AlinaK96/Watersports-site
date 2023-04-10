@@ -190,6 +190,13 @@ body{
 	flex-direction: row;
 	justify-content: space-between;
     margin-top: 30px;
+    margin-left: 25px;
+}
+
+@media (max-width: 575px) {
+    .promoCatalog{
+        margin-right: 10px;
+    }
 }
 
 .promoCatalog-Object{
@@ -396,13 +403,15 @@ h4{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 250px;
 }
 
 .seenGoodsSlider{
     width: 100%;
     display: flex;
     padding: 0 20px;
+    flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-between;
 }
 
 .seenSlide{
@@ -416,4 +425,27 @@ h4{
     background-repeat: no-repeat;
     position: relative;
     transition: all 500ms ease-in-out;
+}
+
+.seenGood{
+    width: 180px;
+    height: 180px;
+}
+
+@media (max-width:991px){
+    .seenGood{
+        width: 160px;
+        height: 160px;
+    }
+}
+
+@media (max-width: 767px){
+    .seenSlide:last-child{
+        display: none;
+    }
+
+    .seenGood{
+        width: 150px;
+        height: 150px;
+    }
 }
