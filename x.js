@@ -48,3 +48,5 @@ function clearActiveClasses() {
         slide.classList.remove('active')
     })
 }
+
+// рандомное добавление продуктов в класс "просмотренное"

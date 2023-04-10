@@ -9,6 +9,10 @@
     --greyText: #C4C4C4;
 }
 
+.blue{
+    color: var(--mainBlue);
+}
+
 body{
     font-family: var(--mainFont);
     margin: auto;
@@ -185,6 +189,7 @@ body{
 	flex-wrap: wrap;
 	flex-direction: row;
 	justify-content: space-between;
+    margin-top: 30px;
 }
 
 .promoCatalog-Object{
@@ -382,3 +387,33 @@ h4{
     opacity: 1;
     transition: opacity 0.3s ease-in 0.4s;
 } 
+
+/*Просмотренные товары*/
+
+.seenGoods{
+    overflow: hidden;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+}
+
+.seenGoodsSlider{
+    width: 100%;
+    display: flex;
+    padding: 0 20px;
+}
+
+.seenSlide{
+    border-radius: 20px;
+    margin: 10px;
+    cursor: pointer;
+    color: var(--mainBlue);
+    flex: 5;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    transition: all 500ms ease-in-out;
+}
