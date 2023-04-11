@@ -449,3 +449,9 @@ h4{
         height: 150px;
     }
 }
+
+@media (max-width: 575px){
+    .banner{
+        display: none;
+    }
+}

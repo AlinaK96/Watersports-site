@@ -279,4 +279,11 @@ hr{
         margin-left: 15px;
     }
 
+    .charecteristics h1{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 575px){
+
 }

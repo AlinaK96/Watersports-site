@@ -218,4 +218,9 @@ a.link:hover{
         position: absolute;
         top: 110px;
     }
+
+    .menu{
+        display: flex;
+        justify-content: space-evenly;
+    }
 }
