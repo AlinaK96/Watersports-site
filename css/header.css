@@ -120,7 +120,7 @@ a.link:hover{
 }
 
 
-/*Карзина*/
+/*Карзина
 
 .cartBuy {
     width: 75px;
@@ -129,8 +129,8 @@ a.link:hover{
     background-color: var(--mainBlue);
     transition: 0.2s;
     cursor: pointer;
-    position: fixed; /* Фиксированное расположение */
-    top: 170px; /* в правом верхнем углу */
+    position: fixed; Фиксированное расположение 
+    top: 170px;  в правом верхнем углу 
     right: 7px;
     display: flex;
     justify-content: center;
@@ -159,7 +159,7 @@ a.link:hover{
     font-weight: 500;
     top: -5px;
     right: -5px;
-}
+}*/
 
 @media (max-width: 991px){
     .categories{
@@ -194,15 +194,6 @@ a.link:hover{
         
     }
 
-    /* .logo{
-        position: relative;
-        left: 180px;
-    }
-
-    .profile-links{
-        position: relative;
-       right: 50px;
-    } */
 
     .menu>li:nth-child(2n+1){
         display: none;
@@ -216,6 +207,15 @@ a.link:hover{
     .location img{
         display: none;
     }
+}
 
+@media (max-width: 575px) {
+    .menu>li{
+        display: none;
+    }
 
+    .categories.active{
+        position: absolute;
+        top: 110px;
+    }
 }
