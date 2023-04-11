@@ -75,7 +75,7 @@ a.link:hover{
     }
     .menu_burger span{
         position: absolute;
-        background-color: var(--colorBlack);
+        background-color: var(--mainBlue);
         left: 30px;
         width: 100%;
         height: 2px;
@@ -86,7 +86,7 @@ a.link:hover{
     .menu_burger:before,
     .menu_burger:after{
         content: '';
-        background-color: var(--colorBlack);
+        background-color: var(--mainBlue);
         position: absolute;
         width: 100%;
         height: 2px;
@@ -130,14 +130,15 @@ a.link:hover{
     transition: 0.2s;
     cursor: pointer;
     position: fixed; /* Фиксированное расположение */
-    top: 50px; /* в правом верхнем углу */
-    right: 50px;
+    top: 170px; /* в правом верхнем углу */
+    right: 7px;
     display: flex;
     justify-content: center;
     align-items: center;
     object-fit: contain;
     padding: 15px;
     border: transparent;
+    z-index: 5;
 }
 
 .cartBuy:hover {
@@ -158,4 +159,63 @@ a.link:hover{
     font-weight: 500;
     top: -5px;
     right: -5px;
+}
+
+@media (max-width: 991px){
+    .categories{
+        font-size: 18px;
+    }
+
+    .profile-links img{
+        margin-right: 10px;
+    }
+}
+
+@media (max-width: 767px){
+    .categories{
+        position: fixed;
+        top: -100%;
+        right: 0;
+        width: 13%;
+        height: 40%;
+        transition: all 0.3s ease 0s;
+        overflow: auto;
+    }
+
+    .categories.active{
+        position: absolute;
+        left: 4%;
+        width: 200px;
+        top: 100px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        z-index: 3;
+        
+    }
+
+    /* .logo{
+        position: relative;
+        left: 180px;
+    }
+
+    .profile-links{
+        position: relative;
+       right: 50px;
+    } */
+
+    .menu>li:nth-child(2n+1){
+        display: none;
+    }
+
+    .menu{
+        margin-left: 30px;
+        font-size: 17px;
+    }
+
+    .location img{
+        display: none;
+    }
+
+
 }

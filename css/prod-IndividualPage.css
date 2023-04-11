@@ -95,7 +95,7 @@
 	left: 5%;
 	right: 5%;
 	height: 100%;
-	width: 100%;
+	width: 95%;
 }
 
 .tableHeader{
@@ -174,7 +174,7 @@ hr{
 
 
 .line{
-    width: 280px;
+    width: 265px;
     font-size: 20px;
     color: var(--colorBlack);
 }
@@ -210,4 +210,73 @@ hr{
     background-color: #FFFFFF;
     color: var(--mainBlue);
     border: 1px solid var(--mainBlue);
+}
+
+@media (max-width: 991px){
+    .productInformation{
+        right: 0px;
+        left: 4%;
+    }
+
+    .Card{
+        width: 420px;
+    }
+
+    .Cardcontent img {
+        width: 400px;
+        height: 330px;
+    }
+
+    .charecteristics{
+        margin-left: 20px;
+
+    }
+
+    .charecteristics h1{
+        font-size: 28px;
+    }
+
+    .line{
+        width: 200px;
+    }
+}
+
+@media (max-width: 767px) {
+    .additional-categ{
+        margin-right: 0px;
+    }
+
+    .AdditionalCard:nth-child(2n){
+        display: none;
+    }
+
+    .tableBody{
+        font-size: 12px;
+    }
+
+    .tableHeader{
+        font-size: 15px;
+    }
+
+    .infoLine{
+        font-size: 15px;
+    }
+
+    .Card{
+        width: 350px;
+    }
+
+    .Cardcontent img{
+        width: 330px;
+    }
+
+    .line,
+    .column{
+        font-size: 17px;
+    }
+
+    .charecteristics{
+        margin-left: 15px;
+    }
+
 }

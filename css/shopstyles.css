@@ -100,7 +100,7 @@ body{
 .popularCard, .AdditionalCard {
     border: 1px solid var(--greyText);
     height: 408px;
-    width: 271px;
+    width: 240px;
     border-radius: 3px;
     margin-bottom: 35px;
 }
