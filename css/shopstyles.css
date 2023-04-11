@@ -387,7 +387,7 @@ h4{
 }
   
 .slide.active{
-    flex: 8;
+    flex: 10;
 }
   
 .slide.active h3{
@@ -453,5 +453,13 @@ h4{
 @media (max-width: 575px){
     .banner{
         display: none;
+    }
+
+    .promoCatalog-Object{
+        width: 320px;
+    }
+
+    .promoCatalog{
+        margin-left: 10px;
     }
 }
