@@ -397,12 +397,17 @@ h4{
 
 /*Просмотренные товары*/
 
+
 .seenGoods{
     overflow: hidden;
     margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.seen h3{
+    margin-left: 25px;
 }
 
 .seenGoodsSlider{
